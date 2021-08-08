@@ -9,7 +9,7 @@ function validateLogin(){
 
 function Pwd_display(){
     let img = document.getElementById("show_pwd").style.backgroundImage;
-    if (img.includes("crossed_eye.png")){
+    if (img.includes("crossedeye.png")){
         document.getElementById("show_pwd").style.backgroundImage = "url(/img/uncrossedeye.png)";
         document.getElementById("password").type = "text";
     } else {
