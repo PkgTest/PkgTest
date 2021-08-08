@@ -148,6 +148,7 @@ body {
     color: grey;
     width: 150px;
     min-width: 150px;
+    max-height: 20px;
 }
 
 #new_acc_line:hover, #fgt_pwd_line:hover{
