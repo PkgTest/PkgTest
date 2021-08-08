@@ -145,7 +145,6 @@ body {
 }
 
 #fgt_pwd_line{
-    border: 10px solid black;
     color: grey;
     width: 150px;
     min-width: 150px;
