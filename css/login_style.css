@@ -9,6 +9,7 @@ body {
   font-family: MS;
   background: orange;
   background-size: cover;
+  white-space: nowrap;
 }
 
 .unselectable{
@@ -92,6 +93,7 @@ body {
     margin: 0;
     padding: 0;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .login_tight_box input[type="text"],.login_tight_box input[type="password"]{
@@ -142,16 +144,19 @@ body {
     width: 150px;
     min-width: 150px;
     margin-left: 50px;
+    white-space: nowrap;
 }
 
 #fgt_pwd_line{
     color: grey;
     width: 150px;
     min-width: 150px;
+    white-space: nowrap;
 }
 
 #new_acc_line:hover, #fgt_pwd_line:hover{
     color: orange;
+    white-space: nowrap;
 }
 
 #show_pwd{
